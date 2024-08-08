@@ -1,0 +1,149 @@
+name: persistventure_assignment
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  audioplayers: any
+  just_audio: any
+  http: any
+  provider: any
+  share: ^2.0.4
+  share_plus: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/sounds/sound_1.mp3
+     - assets/sounds/frog.mp3
+     - assets/sounds/auughhh.mp3
+     - assets/sounds/baby_laugh.mp3
+     - assets/sounds/coffin_dance.mp3
+     - assets/sounds/danger_alaram.mp3
+     - assets/sounds/dun_dun.mp3
+     - assets/sounds/error.mp3
+     - assets/sounds/fail_sound.mp3
+     - assets/sounds/fart.mp3
+     - assets/sounds/galaxy_brain.mp3
+     - assets/sounds/goofy-ahh-car-horn-200870.mp3
+     - assets/sounds/gunload-101soundboards.mp3
+     - assets/sounds/huh.mp3
+     - assets/sounds/insta_thud.mp3
+     - assets/sounds/isnt-that-amazing-meme-sfx-172488.mp3
+     - assets/sounds/meme.mp3
+     - assets/sounds/nani_full.mp3
+     - assets/sounds/oh_no.mp3
+     - assets/sounds/run.mp3
+     - assets/sounds/sad_violon.mp3
+     - assets/sounds/scream.mp3
+     - assets/sounds/shocked.mp3
+     - assets/sounds/sus-meme-sound-181271.mp3
+     - assets/sounds/what_da_doing.mp3
+     - assets/sounds/women.mp3
+     - assets/sounds/kiryu-coco-astronomia.mp3
+     - assets/sounds/emotional-damage-meme.mp3
+     - assets/sounds/gta-san-andreas-ah-shit-here-we-go-again_BWv0Gvc.mp3
+     - assets/sounds/my-movie-6_0RlWMvM.mp3
+     - assets/sounds/snore-mimimimimimi.mp3
+     - assets/sounds/aaaaaaaa-online-audio-converter_r9waVUO.mp3
+     - assets/sounds/999-social-credit-siren.mp3
+     - assets/sounds/guy-yelling-among-us-sound-effect.mp3
+     - assets/sounds/oh-my-god-meme.mp3
+     - assets/sounds/yt1s_NSjFWNC.mp3
+     - assets/sounds/do-eeeweweewet.mp3
+     - assets/sounds/chin-tapak-dum-dum.mp3
+     - assets/sounds/ammi-bacha-la-re.mp3
+     - assets/sounds/comedy_sms_tonewapspell.mp3
+     - assets/sounds/tmpgj3wv0ae.mp3
+     - assets/sounds/daequan-come-here-boy-sound-effect.mp3
+     - assets/sounds/tmp_z5b93np.mp3
+     - assets/sounds/the-rock-meme.mp3
+     - assets/sounds/its-in-the-game_TyOFKRF.mp3
+     - assets/sounds/tmpbxydyrz3.mp3
+     - assets/sounds/a-rat.mp3
+     - assets/sounds/what-the-hell-meme-sound-effect.mp3
+     - assets/sounds/loud-version_7n1qEm2.mp3
+     - assets/sounds/mac-quack.mp3
+     - assets/sounds/scheming-weasel-faster-1-mp3cutn-mp3cut.mp3
+     - assets/sounds/and-his-name-is-john-cena-1_1.mp3
+
+
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
