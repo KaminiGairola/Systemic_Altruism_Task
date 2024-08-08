@@ -29,7 +29,6 @@ A new Flutter project which is an assignment given by Systemic Altruism.
 
 ## When clicked on add btn
 ![image](https://github.com/user-attachments/assets/6c17a588-4c4e-490c-a78b-c822ef54f709)
-
 Thank You.
 
 ## Meme Created Screen
