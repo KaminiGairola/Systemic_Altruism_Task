@@ -1,4 +1,4 @@
-# systematic_altruism_assignment
+# systemic_altruism_assignment
 
 A new Flutter project.
 
